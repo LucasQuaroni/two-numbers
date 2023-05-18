@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #454545;
+}
+
+.card {
+    background-color: #1E1E1E;
+    display: flex;
+    flex-direction: column;
+    height: 35rem;
+    width: 55rem;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+    border-radius: 5px;
+}
+
+.textos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 70%;
+    color: #e1ffff;
+    gap: 1rem;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.textos h1 {
+    color: #2a9235;
+    font-size: 4rem;
+}
+
+.cajas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 4rem;
+}
+
+.inputs {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+input {
+    height: 4rem;
+    width: 10rem;
+    border-radius: 5px;
+    border-style: none;
+    background-color: #4CAF50;
+    color: #1E1E1E;
+    font-size: 2rem;
+    text-align: center;
+}
+
+input:hover {
+    background-color: #2a9235;
+}
+
+button {
+    height: 4rem;
+    width: 6rem;
+    border-radius: 10px;
+    border-style: none;
+    background-color: #2a9235;
+    color: #e1ffff;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4CAF50;
+    color: #1E1E1E; 
+}
+
+.results {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+#refran {
+    color: #e1ffff;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+#resultado {
+    height: 4rem;
+    width: 10rem;
+    background-color:#0a490a;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    color: #e1ffff;
+}
